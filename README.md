@@ -26,9 +26,8 @@ For example:
 ```
 countries = ['Germany', 'Canada', 'USA']
 years = [2018, 2019, 2020]
-type = ['A', 'B', 'C']
 
-print(dummy_dataframe(['Country', 'Year', 'Type'], countries, years, type))
+print(dummy_dataframe(['Country', 'Year', 'Type'], countries, years))
 ```
 
 |    | Country   |   Year |
