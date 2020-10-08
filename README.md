@@ -17,7 +17,7 @@ For example, this table:
 | a    | 1    |
 | b    | 2    |
 
-Would return the following dictionary: {'a':1, 'b':2}.
+Then running `clipboard2dict()` would add the following dictionary: `{'a':1, 'b':2}` to your clipboard.
 
 ### [Dummy_Data.py](https://github.com/datagy/Python-Snippets/blob/master/dummy_data.py)
 This snippet relies on the product method from itertools, which generates a dot product of all possible combinations of multiple lists. The product is then applied to a dataframe. 
