@@ -8,7 +8,7 @@ These are snippets of code I frequently use in my day-to-day work and figured mi
 These snippets are helpful tools that I've developed to aid my own workflow. I'll try to include some use cases wherever needed/possible.
 
 ## Snippets
-### Clipboard2Dict.py
+### [Clipboard2Dict.py](https://github.com/datagy/Python-Snippets/blob/master/ClipboardToDict.py)
 This snippet takes your clipboard (from a tabular format (e.g., Excel)) and turns it into a dictionary. The resulting dictionary is returned to your clipboard.
 
 For example, this table:
@@ -19,7 +19,7 @@ For example, this table:
 
 Would return the following dictionary: {'a':1, 'b':2}.
 
-### Dummy_Data.py
+### [Dummy_Data.py](https://github.com/datagy/Python-Snippets/blob/master/dummy_data.py)
 This snippet relies on the product method from itertools, which generates a dot product of all possible combinations of multiple lists. The product is then applied to a dataframe. 
 
 For example:
