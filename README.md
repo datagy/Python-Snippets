@@ -42,3 +42,15 @@ print(dummy_dataframe(['Country', 'Year', 'Type'], countries, years))
 |  7 | USA       |   2019 |
 |  8 | USA       |   2020 |
 
+### [FindEncoding.py](https://github.com/datagy/Python-Snippets/blob/master/FindEncoding.py)
+This snippet is useful to determine the type of encoding used in a file when bringing it into Pandas. It requires the `encodings` library, which the script imports. 
+
+Assign the script to a variable a list of encodings is returned.
+
+For example:
+```
+encodings = find_encoding(file_path)
+print(encodings)
+```
+
+Will return a list of encodings. Alternatively, you could write `print(find_encoding(file_path))`.
